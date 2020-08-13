@@ -1,0 +1,166 @@
+html {
+    /*   width: 120%; */
+      height: 100%;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+    /*   width: 120%; */
+      height: 100%;
+      background-size: contain, cover;
+      
+    /*     background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+      
+      background-image: linear-gradient(20deg,  rgb(167, 187, 187), rgb(185, 155, 192), rgb(184, 138, 194));
+      
+      font-family: Arial, Helvetica, sans-serif;
+      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    
+    a:link {
+      text-decoration: none;
+      font-family: serif;
+      font-size: 18px;
+      color: rgb(128, 93, 93);;
+    }
+    
+    h1 {
+      font-family: serif;
+      font-size: 18px;
+      color: rgb(128, 93, 93);;
+      
+      position: fixed;
+      align-self: flex-start;
+      margin: 2%;
+    }
+
+    #card-container {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    
+    .card {
+      width: 30%;
+      height: 70%;
+      
+      color: white;
+      font-family: helvetica, arial, sans serif;
+      font-size: 100%;
+      font-weight: bold;
+      margin: 2%;
+      border-radius: 10px;
+      
+    /*   flex-grow: 1; */
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      
+      transition: font-size 0.18s, background 0.2s, width 0.2s, height 0.2s;
+    }
+
+    /* #card1 {
+      display: none;
+    } */
+    
+    #card1 {
+      background-image: url(https://images.pexels.com/photos/3222189/pexels-photo-3222189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+    }
+
+    #card2 {
+      background: url(https://images.pexels.com/photos/354941/pexels-photo-354941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+    }
+    
+    #card3 {
+      background: url(https://images.pexels.com/photos/4234547/pexels-photo-4234547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+    }
+    
+    #card4 {
+      background: url(https://images.pexels.com/photos/34221/violin-musical-instrument-music-sound.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+    }
+    
+    #card5 {
+      background: url(https://images.pexels.com/photos/3340136/pexels-photo-3340136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+    }
+    
+    #card6 {
+      background: url(https://images.pexels.com/photos/9234/landscape-sunset-sun-orange.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+    }
+
+    .card:hover, 
+    #card1:hover, 
+    #card2:hover, 
+    #card3:hover, 
+    #card4:hover, 
+    #card5:hover, 
+    #card6:hover {
+    /*   background-color: rgb(218, 212, 212); */
+      background-image: none;
+      background: rgba(124, 124, 124, 0.4);
+      width: 40%;
+      height: 80%;
+      font-size: 150%;
+      position: abstolute;
+      box-shadow: 20px 10px 20px rgba(0, 0, 0, .7);
+      color: black;
+      
+    /*   z-index: 2; */
+    /*   flex-grow: 2; */
+    }
+    
+    #btns {
+    /*   background: red; */
+      position: absolute;
+      width: 98%;
+      height: 100%;
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    button {
+      z-index: 2;
+      
+      color: rgba(0, 0, 0, .3);
+      background: rgba(128, 128, 128, 0.4);
+      border-color: rgba(128, 128, 128, .3);
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      
+      font-size: 60px;
+      
+        
+      transition: font-size 0.18s, width 0.2s, height 0.2s;
+    }
+    
+    
+    button:hover {
+      width: 120px;
+      height: 120px;
+      font-size: 90px;
+    }
+    
+    /* https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
